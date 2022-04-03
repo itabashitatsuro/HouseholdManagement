@@ -1,0 +1,225 @@
+
+/* ヘッダー */
+header, main, footer{
+    width: 100%;
+    margin: 20px;
+    padding: 20px;
+}
+#header-block {
+    display: flex;
+    justify-content: space-between;
+}
+#header-left-bar {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    font-size: 20px;
+}
+.icon {
+    width: 50%;
+}
+#header-right-bar {
+    width: 100%;
+    text-align: right;
+    margin-right: 30px;
+}
+
+main {
+    width: 100%;
+    margin: 10px;
+    font-size: 25px;
+}
+
+h2 > a.btn--orange {
+    color: #fff;
+    background-color: #eb6100;
+    border-bottom: 5px solid #b84c00;
+}
+h2 > a.btn--orange:hover {
+    margin-top: 3px;
+    color: #fff;
+    background: #f56500;
+    border-bottom: 2px solid #b84c00;
+}
+h2 > a.btn--shadow {
+    -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+}
+
+/* 資産総額 */
+#assets-block {
+    width: 100%;
+    height: 100%;
+    margin: 10px 5px;
+    padding: 30px 10px;
+    border-radius: 20px;
+}
+
+#assets-total {
+    height: 100%;
+    margin: 0px 5px 50px 5px;
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+#assets-total > h2 {
+    line-height: 100px;
+    margin-left: 20px;
+}
+
+/* 今日の支出入 */
+#today-balance {
+    height: 100%;
+    margin: 50px 5px;
+    padding: 40px 5px;
+    background-color: #FFFFF0;
+    border-radius: 10px;
+}
+#today-balance-block-list {
+    text-align: center;
+    padding:  20px;
+}
+.today-balance-block {
+    display: inline-block;
+    padding:  10px;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+.today-balance-block > p {
+    font-size: 16px;
+}
+.today-balance-block > h3 > span {
+    font-weight: bold;
+}
+
+
+#balance-list {
+    height: 100%;
+    margin: 50px 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* 今週の支出入 */
+#this-weekend-block {
+    height: 100%;
+    width: 80%;
+    padding: 40px 5px;
+    background-color: #F0FFFF;
+    border-radius: 10px;
+}
+.weekend {
+    padding: 10px;
+    margin: 15px;
+    border: 0.3px solid grey;
+    border-radius: 10px;
+}
+.weekend > p {
+    font-size: 16px;
+}
+.weekend > h3 > span {
+    font-weight: bold;
+}
+
+/* 今月の支出入 */
+#this-month-block {
+    height: 100%;
+    width: 80%;
+    padding: 40px 5px;
+    background-color: #FFF0F5;
+    border-radius: 10px;
+}
+.month {
+    padding: 10px;
+    margin: 15px;
+    border: 0.3px solid grey;
+    border-radius: 10px;
+}
+.month > p {
+    font-size: 16px;
+}
+.month > h3 > span {
+    font-weight: bold;
+}
+
+main > h2 > a {
+    font-weight:50px;
+    padding:5px;
+}
+
+/* ユーザー情報 */
+#user-contents-menu {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 50px 5px;
+    background-color: dodgerblue;
+    border-radius: 10px;
+}
+#user-contents-menu > #user-contents-link > p {
+    margin: 0 10px 0 10px;
+    display: inline-block;
+    color: #fff;
+}
+#user-contents-menu > #user-contents-link  > p > a {
+    text-align: center;
+    color: #fff;
+}
+#user-contents-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* フッター */
+footer {
+    width: 100%;
+    background-color: #fff;
+    padding: 15px 100px;
+    color:dimgray;
+}
+
+#Corporate{
+    font-size: 20px;
+    margin-bottom:30px;
+    border-bottom: 1px solid #000;
+}
+#footer-link-block {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-block > h3 {
+    font-size: 24px;
+}
+.footer-block > p {
+    font-size: 14px;
+}
+.footer-block > p > a {
+    color: grey;
+}
+.btn--orange,
+a.btn--orange {
+  color: #fff;
+  background-color: #eb6100;
+}
+.btn--orange:hover,
+a.btn--orange:hover {
+  color: #fff;
+  background: #f56500;
+}
+
+.fa-position-left {
+  position: absolute;
+  top: calc(50% - .5em);
+  left: 1rem;
+}
+
+.btn--radius,
+a.btn--radius,
+button.btn--radius
+{
+    border-radius: 100vh;
+}
